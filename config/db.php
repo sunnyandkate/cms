@@ -17,14 +17,12 @@ try {
         die("Database connection failed.");
 }
 
-// ... keep your existing PDO connection code exactly the same ...
 
-// 🚀 AUTODETECT THE ROOT PATH TRAILING STRING
 if ($_SERVER['HTTP_HOST'] === 'localhost') {
-    // Localhost: Adjust 'my-blog-project' to match your exact XAMPP/MAMP folder name!
+   
     define('BASE_URL', 'http://localhost/CMS/'); 
 } else {
-    // Live Server: Automatically matches your Byethost domain url structure
+   
     define('BASE_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/');
 }
 
