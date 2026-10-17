@@ -1,7 +1,7 @@
 <div class="nav-container">
    
    <nav>
-       <h2><a class="logo" href="index.php">My Blog</a></h2>
+       <h2><a class="logo" href="../index.php">My Blog</a></h2>
         <div class="toggle-menu">
             <span class="line"></span>
             <span class="line"></span>

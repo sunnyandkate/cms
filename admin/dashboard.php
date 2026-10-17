@@ -5,7 +5,7 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 require_once '../config/db.php';
-include '../includes/header.php';
+include '../includes/admin-header.php';
 
 
 if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== true) {
@@ -19,7 +19,7 @@ $allPosts = $stmt->fetchAll();
 
 <body>
 
-    <?php include '../includes/navigation.php'; ?>
+    <?php include '../includes/admin-navigation.php'; ?>
 
 <div class="container">
         
@@ -80,4 +80,4 @@ $allPosts = $stmt->fetchAll();
 
 
 
-<?php include '../includes/footer.php'; ?>
+<?php include '../includes/admin-footer.php'; ?>
