@@ -5,7 +5,7 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 require_once '../config/db.php';
-include '../includes/header.php';
+include '../includes/admin-header.php'; 
 
 $error = '';
 
