@@ -12,6 +12,23 @@
   --color-dark-blue: #28383e;
 }
 
+@media(prefers-color-scheme: dark){
+    :root{
+    --color-ui-heading: #707b51;
+    --color-bg: #fffcb3;
+    --color-box-bg: #84a3ae;
+    --color-text-content: #383e28;
+    --color-mono: #c8776a;
+    --color-btn: #707b51;
+    --color-btn-bg: #fffcb3;
+    --color-dark-blue: #28383e;
+    }
+}
+html {
+    color-scheme: light dark !important; 
+    forced-color-adjust: none !important;
+}
+
 body{
     height:100%;
     width: 100%;

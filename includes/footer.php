@@ -8,7 +8,7 @@
         </div>
     </div>
 </footer>
-<script src="<?php echo BASE_URL; ?>js/script.js"></script>
-<script defer src="<?php echo BASE_URL; ?>js/cookieconsent-init.js"></script>
+<script src="js/script.js"></script>
+<script defer src="js/cookieconsent-init.js"></script>
 </body>
 </html>

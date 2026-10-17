@@ -17,10 +17,10 @@ try {
         die("Database connection failed.");
 }
 
-if ($_SERVER['HTTP_HOST'] === 'localhost') { 
+if ($_SERVER['HTTPS_HOST'] === 'localhost') { 
     define('BASE_URL', 'http://localhost/CMS/'); 
 } else {   
-    define('BASE_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/');
+    define('BASE_URL', 'http://' . $_SERVER['HTTPS_HOST'] . '/');
 }
 
 ?>
