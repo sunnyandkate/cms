@@ -51,7 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <body>
 
-<?php include '../includes/navigation.php'; ?>
+<?php include '../includes/admin-navigation.php'; ?>
 
 <div class="login-container">
     <h2 class="login-title">Admin Login</h2>
@@ -90,5 +90,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
 <?php 
-include '../includes/footer.php'; 
+include '../includes/admin-footer.php'; 
 ?>

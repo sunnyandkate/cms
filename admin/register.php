@@ -5,7 +5,7 @@ if (session_status() === PHP_SESSION_NONE) {
 
 
 require_once '../config/db.php';
-include '../includes/header.php';
+include '../includes/admin-header.php';
 
 $message = '';
 $error = '';
@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 
 <body>
-<?php include '../includes/navigation.php'; ?>
+<?php include '../includes/admin-navigation.php'; ?>
 
 <div class="signup-container">
     <h2>Sign Up</h2>
@@ -70,4 +70,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <p class="signup-back-btn"><a href="../index.php">Back</a></p>
 </div>
 
-<?php include '../includes/footer.php'; ?>
+<?php include '../includes/admin-footer.php'; ?>

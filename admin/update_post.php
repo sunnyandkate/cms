@@ -5,7 +5,7 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 require_once '../config/db.php';
-include '../includes/header.php';
+include '../includes/admin-header.php';
 
 if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== true) {
     header('Location: login.php');
@@ -78,7 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <body>
 
-<?php include '../includes/navigation.php'; ?>
+<?php include '../includes/admin-navigation.php'; ?>
 
 <div class="container">
     <div class="update-post-container">
@@ -122,4 +122,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
 
-<?php include '../includes/footer.php'; ?>
+<?php include '../includes/admin-footer.php'; ?>
