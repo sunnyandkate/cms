@@ -18,9 +18,9 @@ try {
 }
 
 if ($_SERVER['HTTPS_HOST'] === 'localhost') { 
-    define('BASE_URL', 'http://localhost/CMS/'); 
+    define('BASE_URL', 'https://localhost/CMS/'); 
 } else {   
-    define('BASE_URL', 'http://' . $_SERVER['HTTPS_HOST'] . '/');
+    define('BASE_URL', 'https://' . $_SERVER['HTTPS_HOST'] . '/');
 }
 
 ?>
