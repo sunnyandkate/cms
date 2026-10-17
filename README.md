@@ -4,7 +4,7 @@ This project is a lightweight, custom-built Content Management System (CMS) for 
 
 ## Live Demo & Recruiter Review Mode
 
-* **Live Demo URL:** `https://sunnyandkate.byethost11.com`
+* **Live Demo URL:** `https://projects/maharaniwebsites.com/cms`
 * **Sandbox Username:** `code_reviewer`
 * **Sandbox Password:** `sandbox_mode`
 
