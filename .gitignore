@@ -1,0 +1,5 @@
+config/local-credentials.php
+
+config/credentials.php
+.DS_Store
+credentials.php
